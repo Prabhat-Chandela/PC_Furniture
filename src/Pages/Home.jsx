@@ -3,7 +3,7 @@ import { HomeComponent } from '../Components';
 
 function Home() {
   return (
-    <div>
+    <div className='w-full rounded-lg overflow-hidden'>
         <HomeComponent/>
     </div>
   )
