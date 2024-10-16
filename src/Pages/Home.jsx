@@ -1,10 +1,10 @@
 import React from 'react';
-import { HomeComponent } from '../Components';
+import { HomeHeroComponent } from '../Components';
 
 function Home() {
   return (
     <div className='w-full sm:rounded-lg overflow-hidden'>
-        <HomeComponent/>
+        <HomeHeroComponent/>
     </div>
   )
 }

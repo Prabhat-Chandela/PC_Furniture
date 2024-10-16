@@ -1,6 +1,6 @@
 import React from 'react';
 
-function HomeComponent() {
+function HomeHeroComponent() {
   return (
     <section className='w-full aspect-[3/5] sm:aspect-[16/13] lg:aspect-[16/11] bg-[url("\HeroImage.jpg")] bg-center lg:bg-bottom bg-cover bg-no-repeat flex flex-col justify-between'>
 
@@ -38,7 +38,10 @@ function HomeComponent() {
       </div>
 
       <div className='w-full flex justify-end'>
-        <div className='w-full sm:w-[80%] p-2 lg:p-3 bg-[#F6F6F6] sm:rounded-tl-lg'>
+        <div className='w-full sm:w-[80%] p-2 lg:p-3 bg-[#F6F6F6] sm:rounded-tl-lg relative'>
+
+          <div className='hidden sm:block absolute w-2 aspect-square invertedRadius -top-2 right-0 -rotate-180 z-10'></div>
+          <div className='hidden sm:block absolute w-2 aspect-square invertedRadius bottom-0 -left-2 -rotate-180 z-10'></div>
         
           <div className='w-full bg-[#679936] py-4 px-3 sm:p-5 lg:p-9 rounded-lg flex items-center justify-between'>
 
@@ -90,4 +93,4 @@ function HomeComponent() {
   )
 }
 
-export default HomeComponent;
+export default HomeHeroComponent;

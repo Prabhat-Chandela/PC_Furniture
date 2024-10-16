@@ -37,6 +37,10 @@ h1 {
   line-height: 1.1;
 }
 
+.invertedRadius{
+  background-image: radial-gradient(circle at 100% 100%, transparent 8px, #F6F6F6 8px);
+}
+
 
 @media (prefers-color-scheme: light) {
   :root {

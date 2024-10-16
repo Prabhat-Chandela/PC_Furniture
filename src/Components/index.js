@@ -1,7 +1,7 @@
 import Header from "./Header/Header";
-import HomeComponent from "./HomeComponent/HomeComponent";
+import HomeHeroComponent from "./HomeHeroComponent/HomeHeroComponent";
 
 export{
     Header,
-    HomeComponent
+    HomeHeroComponent
 }
