@@ -1,11 +1,19 @@
 import React from 'react';
-import { HomeHeroComponent } from '../Components';
+import { HomeHeroComponent, HomeShowcase } from '../Components';
 
 function Home() {
   return (
-    <div className='w-full sm:rounded-lg overflow-hidden'>
-        <HomeHeroComponent/>
-    </div>
+    <main className='w-full flex flex-col gap-4'>
+
+      <div className='w-full sm:rounded-lg overflow-hidden'>
+        <HomeHeroComponent />
+      </div>
+
+      <div className='w-full'>
+        <HomeShowcase/>
+      </div>
+
+    </main>
   )
 }
 

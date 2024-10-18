@@ -41,6 +41,9 @@ h1 {
   background-image: radial-gradient(circle at 100% 100%, transparent 8px, #F6F6F6 8px);
 }
 
+.invertedRadiusSecond{
+  background-image: radial-gradient(circle at 100% 100%, transparent 12px, #F6F6F6 12px);
+}
 
 @media (prefers-color-scheme: light) {
   :root {
